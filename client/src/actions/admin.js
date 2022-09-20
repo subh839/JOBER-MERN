@@ -7,6 +7,7 @@ export const getAdmin = () => async (dispatch) => {
     dispatch({ type: "FETCH_ALL_ADMIN", payload: data });
   } catch (error) {
     console.log(error.message);
+    console.log("not ok");
   }
 };
 
