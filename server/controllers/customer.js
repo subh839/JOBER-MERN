@@ -13,15 +13,19 @@ export const getCustomer = async (req, res) => {
 };
 
 export const createCustomer = async (req, res) => {
-  const customer = req.body;
-
-  const newCustomer = new CustomerDetails(customer);
+  const customer = new CustomerDetails({
+    userName: req.body.userName,
+    passWord: req.body.passWord,
+    latitude: req.body.latitude,
+    longitude: req.body.longitude
+  })
+  console.log(customer)
+  // const newCustomer = new CustomerDetails(customer);
   try {
-    await newCustomer.save();
-
-    res.status(201).json(newCustomer);
+   const newCustomer=   await customer.save();
+    res.status(201).json({newCustomer});
   } catch (error) {
-    res.status(409).json({ message: error.message });
+    res.status(400).json({ message: error.message });
   }
 };
 

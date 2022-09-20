@@ -102,7 +102,7 @@ app.get("/send-text", (req, res) => {
 });
 
 const CONNECTION_URL =
-  "mongodb+srv://worker:worker123@cluster0.ezibl.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://worker:G0cSsxwt8ae752MM@cluster0.ezibl.mongodb.net/?retryWrites=true&w=majority";
 
 const PORT = process.env.PORT || 5000;
 
