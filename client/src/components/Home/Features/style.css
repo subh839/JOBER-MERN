@@ -1,0 +1,35 @@
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.textColor {
+  color: black;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.make-circle {
+  border-radius: 50%;
+}
+.indented {
+  padding-left: 50pt;
+  padding-right: 50pt;
+}
+.intro {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Papyrus", Times, serif;
+}
+
+.brief {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
