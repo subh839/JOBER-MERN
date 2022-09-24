@@ -49,6 +49,7 @@ export default function CustomerSignin() {
   });
 
   const Login = () => {
+    console.log(info)
     if (info.userName === "" || info.passWord === "") {
       alert("Invalide details!!!");
     } else {

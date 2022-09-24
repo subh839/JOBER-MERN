@@ -1,8 +1,9 @@
-/* -------------------------PROFILE STYLE------------------------------------ */
+
 
 .profilediv{
 	height: 720px;
-	background-image: url("https://i.pinimg.com/originals/90/de/a4/90dea45b9de961fd98cdae063ae68c6d.jpg");
+	background-image: url("https://thumbs.dreamstime.com/b/bandra-worli-sea-link-bridge-fishing-boats-view-bandra-fort-mumbai-india-mumbai-skyline-bandra-worli-sea-link-bridge-181959832.jpg");
+  
 }
 
 .profileCard {
@@ -34,7 +35,7 @@
     top: 0;
     width: 4px;
     height: 100%;
-    background-color: #8E24AA;
+    background-color: #24aa41;
     transform: scaleY(0);
     transition: all 0.5s;
     transform-origin: bottom
@@ -63,7 +64,7 @@
 
 .buttons button:nth-child(1) {
     border: 1px solid #8E24AA !important;
-    color: #8E24AA;
+    color: #a8aa24;
     height: 40px
 }
 
@@ -76,7 +77,7 @@
 
 .buttons button:nth-child(2) {
     border: 1px solid #8E24AA !important;
-    background-color: #8E24AA;
+    background-color: #24a6aa;
     color: #fff;
     height: 40px
 }
@@ -84,7 +85,7 @@
 /* --------------------------------------------------------------- */
 .admindiv{
 	height: 720px;
-	background-image: url("https://i.pinimg.com/originals/90/de/a4/90dea45b9de961fd98cdae063ae68c6d.jpg");
+	background-image:url("https://thumbs.dreamstime.com/b/bandra-worli-sea-link-bridge-fishing-boats-view-bandra-fort-mumbai-india-mumbai-skyline-bandra-worli-sea-link-bridge-181959832.jpg");
 
 }
 .adminsetup{
@@ -214,7 +215,7 @@
 	color: #ffc107;
   }
   table.table td a.delete {
-	color: #f44336;
+	color: #bd3127;
   }
   table.table td i {
 	font-size: 19px;
@@ -248,7 +249,7 @@
 	background: #03a9f4;
   }
   .pagination li.active a:hover {
-	background: #0397d6;
+	background: #051922;
   }
   .pagination li.disabled i {
 	color: #ccc;
@@ -301,7 +302,7 @@
 	transform: rotateZ(45deg);
   }
   .custom-checkbox input[type="checkbox"]:checked + label:before {
-	border-color: #03a9f4;
+	border-color: #03f45f;
 	background: #03a9f4;
   }
   .custom-checkbox input[type="checkbox"]:checked + label:after {
@@ -327,7 +328,7 @@
 	font-size: 14px;
   }
   .modal .modal-footer {
-	background: #ecf0f1;
+	background: #dfecf0;
 	border-radius: 0 0 3px 3px;
   }
   .modal .modal-title {
@@ -336,7 +337,7 @@
   .modal .form-control {
 	border-radius: 2px;
 	box-shadow: none;
-	border-color: #dddddd;
+	border-color: #c5c0c0;
   }
   .modal textarea.form-control {
 	resize: vertical;
