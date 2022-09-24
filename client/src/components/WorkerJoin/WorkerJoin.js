@@ -252,10 +252,7 @@ export default function WorkerJoin() {
                 </button>
                 <p className="shopsignin_p">
                   Already have an account? <Link to="/workersignin">Sign In</Link>
-                </p>
-
-                
-              
+                </p>              
             </div>
           </div>
         </div>
