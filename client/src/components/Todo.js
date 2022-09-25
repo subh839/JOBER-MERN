@@ -1,6 +1,4 @@
 import React from "react";
-import EditIcon from "react-icons";
-import DeleteIcon from "react-icons";
 export default function Todo({ todo, toggleComplete, handleDelete, handleEdit,}) {
   const [newTitle, setNewTitle] = React.useState(todo.title);
 

@@ -3,6 +3,18 @@ import Navbar from "../Navbar/Navbar";
 import { useDispatch } from "react-redux";
 import { createPEM } from "../../actions/pem";
 import { Link } from "react-router-dom";
+import AddTodo from "../AddTodo"
+import Todo from "../Todo";
+import './worker.css';
+import {
+  collection,
+  query,
+  onSnapshot,
+  doc,
+  updateDoc,
+  deleteDoc,
+} from "firebase/firestore";
+import { db } from "./firebase";
 
 export default function WorkerJoin() {
   const dispatch = useDispatch();
@@ -25,6 +37,32 @@ export default function WorkerJoin() {
     dispatch(createPEM(pem));
     alert("Joined Successfully!!!");
   };
+
+  const [todos, setTodos] = React.useState([]);
+
+  React.useEffect(() => {
+    const q = query(collection(db, "todos"));
+    const unsub = onSnapshot(q, (querySnapshot) => {
+      let todosArray = [];
+      querySnapshot.forEach((doc) => {
+        todosArray.push({ ...doc.data(), id: doc.id });
+      });
+      setTodos(todosArray);
+    });
+    return () => unsub();
+  }, []);
+
+  const handleEdit = async (todo, title) => {
+    await updateDoc(doc(db, "todos", todo.id), { title: title });
+  };
+  const toggleComplete = async (todo) => {
+    await updateDoc(doc(db, "todos", todo.id), { completed: !todo.completed });
+  };
+  const handleDelete = async (id) => {
+    await deleteDoc(doc(db, "todos", id));
+  };
+
+  
   return (
     <>
       <Navbar />
@@ -239,7 +277,7 @@ export default function WorkerJoin() {
                       })
                     }
                   >
-                    <option value="Plumber">Plumber</option>
+                    <option value="Plumber">Carpenter</option>
                     <option value="Electrician">Electrician</option>
                     <option value="Mechanic">Mechanic</option>
                   </select>
@@ -258,6 +296,20 @@ export default function WorkerJoin() {
         </div>
       </div>
       </form>
+      <div>
+        <AddTodo />
+      </div>
+      <div className="todo_container">
+        {todos.map((todo) => (
+          <Todo
+            key={todo.id}
+            todo={todo}
+            toggleComplete={toggleComplete}
+            handleDelete={handleDelete}
+            handleEdit={handleEdit}
+          />
+        ))}
+      </div>
     </>
   );
 }

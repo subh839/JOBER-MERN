@@ -20,13 +20,13 @@ export default function AddTodo() {
       <div className="input_container">
         <input
           type="text"
-          placeholder="Enter todo..."
+          placeholder="Enter  details ..."
           value={title}
           onChange={(e) => setTitle(e.target.value)}
         />
       </div>
       <div className="btn_container">
-        <button>Add</button>
+        <button>Add your needs</button>
       </div>
     </form>
   );
