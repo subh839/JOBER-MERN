@@ -77,8 +77,8 @@ export default function ShopJoin() {
     item10: "Choke",
   };
   var mechanicItems = {
-    item1: "Wheel",
-    item2: "Gear",
+    item1: "Wheels",
+    item2: "Horn",
     item3: "Electric Wrench",
     item4: "Mechanic ToolSet",
     item5: "Adjustable spanner",
@@ -201,18 +201,18 @@ export default function ShopJoin() {
     <>
       <Navbar />
       <form onSubmit={submitHandler}>
-        <div className="shopjoin_container container">
+        <div className="shopjoin_container container" style={{width:900}}>
           <div className="shopjoin_container_inner">
             <h2 className="shopjoin_header">Register your shop</h2>
             <div className="shopjoin_form1 row">
-              <div className="col-lg-6 col-md-12">
+              <div className="col-lg-8 col-md-16">
                 <img src={shp1} alt="" className="shp_img1" />
               </div>
 
 
                 {/* ---------------------------------------------name, phone, email--------------------------------------------- */}
 
-                  <div className="col-lg-6 col-md-12 form_col">
+                  <div className="col-lg-8 col-md-14 form_col">
                     <form>
                       <label htmlFor="inputName">Name</label>
                       <input
@@ -350,7 +350,7 @@ export default function ShopJoin() {
                 {/* ------------------------------------------------Lat, Long----------------------------------------------------------------- */}
 
                 
-                  <div className="col-sm-4">
+                  <div className="col-sm-3">
                     <div className="form-group">
                       <label htmlFor="Latitude">Latitude</label>
                       <input
@@ -404,7 +404,7 @@ export default function ShopJoin() {
                 {/* ------------------------------------------------Shop type, address ------------------------------------------------------- */}
 
                 {/* <div className="col-sm-4"> */}
-                <div className="form-group">
+                <div className="form-group" style={{width:400}}>
                   <label htmlFor="exampleFormControlTextarea1">
                     Shop Address
                   </label>
@@ -457,7 +457,7 @@ export default function ShopJoin() {
                   </p>
 
                   <div className="row" id="pemitems" height="">
-                    <div className="col-sm-4">
+                    <div className="col-sm-3">
                       <div className="form-group">
                         <label htmlFor="price1">{collapseItems.item1}</label>
                         <input
@@ -475,7 +475,7 @@ export default function ShopJoin() {
                         />
                       </div>
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-sm-3">
                       <div className="form-group">
                         <label htmlFor="price2">{collapseItems.item2}</label>
                         <input
@@ -493,7 +493,7 @@ export default function ShopJoin() {
                         />
                       </div>
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-sm-3">
                       <div className="form-group">
                         <label htmlFor="inputPhone">
                           {collapseItems.item3}
@@ -513,7 +513,7 @@ export default function ShopJoin() {
                         />
                       </div>
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-sm-3">
                       <div className="form-group">
                         <label htmlFor="inputName">{collapseItems.item4}</label>
                         <input
@@ -531,7 +531,7 @@ export default function ShopJoin() {
                         />
                       </div>
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-sm-3">
                       <div className="form-group">
                         <label htmlFor="inputName">{collapseItems.item5}</label>
                         <input
@@ -549,7 +549,7 @@ export default function ShopJoin() {
                         />
                       </div>
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-sm-3">
                       <div className="form-group">
                         <label htmlFor="inputName">{collapseItems.item6}</label>
                         <input
@@ -567,7 +567,7 @@ export default function ShopJoin() {
                         />
                       </div>
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-sm-3">
                       <div className="form-group">
                         <label htmlFor="inputName">{collapseItems.item7}</label>
                         <input
@@ -585,7 +585,7 @@ export default function ShopJoin() {
                         />
                       </div>
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-sm-3">
                       <div className="form-group">
                         <label htmlFor="inputName">{collapseItems.item8}</label>
                         <input
@@ -603,7 +603,7 @@ export default function ShopJoin() {
                         />
                       </div>
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-sm-3">
                       <div className="form-group">
                         <label htmlFor="inputName">{collapseItems.item9}</label>
                         <input
@@ -621,7 +621,7 @@ export default function ShopJoin() {
                         />
                       </div>
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-sm-3">
                       <div className="form-group">
                         <label htmlFor="inputName">
                           {collapseItems.item10}
@@ -646,7 +646,7 @@ export default function ShopJoin() {
                 <br />
                 {/* ------------------------------------------------description------------------------------------------------------- */}
 
-                <div className="form-group">
+                <div className="form-group" style={{width:400}}>
                   <label htmlFor="exampleFormControlTextarea1">
                     Description
                   </label>

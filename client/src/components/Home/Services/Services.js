@@ -23,10 +23,10 @@ export default function Service({ customerDetails }) {
                 alt="Electrical Shops"
               />
               <h3 className="  text-truncate workname">
-                Civil Shops
+                Electrical Shops
               </h3>
               <span className="text justify-content  ">
-                Find the nearest building materials shops 
+                Find the nearest shops of your electrical  materials.
               </span>
               <div className="d-block  ">
                 <Link to="/Eshops">
@@ -54,10 +54,9 @@ export default function Service({ customerDetails }) {
           <div className="card workcard">
             <div className=" workcard_body">
               <img src={service3} width={30} alt="Plumbing shops" />
-              <h3 className="  text-truncate workname">Electrical shops</h3>
+              <h3 className="  text-truncate workname">Plumber shops</h3>
               <span className="text justify-content  ">
-                Find the nearest Electrical shops Near your place
-              </span>
+                Find the nearest  shops of your building materials.              </span>
               <div className="d-block  ">
                 <Link to="/Pshops">
                   <button className=" btn service_btn btn-warning">Shops</button>

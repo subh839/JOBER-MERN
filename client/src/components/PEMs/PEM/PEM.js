@@ -55,7 +55,7 @@ export default function PEM({
               }}
             >
               <option value="All">All</option>
-              <option value="Plumber">Carpenter</option>
+              <option value="Plumber">Plumber</option>
               <option value="Electrician">Electrician</option>
               <option value="Mechanic">Mechanic</option>
             </select>

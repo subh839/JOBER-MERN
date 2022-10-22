@@ -70,13 +70,13 @@ export default function WorkerJoin() {
       <form onSubmit={submitHandler}>
       <div className="shopjoin_container container">
         <div className="shopjoin_container_inner">
-          <h2 className="shopjoin_header">Join with us for getting work </h2>
+          <h2 className="shopjoin_header" style={{}}>Join with us for getting work </h2>
 
                 {/* ---------------------------------------------name, phone, email--------------------------------------------- */}
                 <div className="shopjoin_form1 row">
                   <div className="col-lg-6 col-md-12">
                     <img
-                      src="https://i.ibb.co/W224PWg/workersignin.gif"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP1V376rUt8pebidPF7HE81PE4Hd0Amh03Wg&usqp=CAU"
                       alt="hellothere"
                       className="shopsignin_img"
                     />
@@ -249,7 +249,7 @@ export default function WorkerJoin() {
                 {/* ------------------------------------------------Shop type, address ------------------------------------------------------- */}
 
                 {/* <div className="col-sm-4"> */}
-                <div className="form-group">
+                <div className="form-group" style={{width:300,}}>
                   <label htmlFor="exampleFormControlTextarea1">Address</label>
                   <textarea
                     className="form-control"
@@ -277,7 +277,7 @@ export default function WorkerJoin() {
                       })
                     }
                   >
-                    <option value="Plumber">Carpenter</option>
+                    <option value="Plumber">Plumber</option>
                     <option value="Electrician">Electrician</option>
                     <option value="Mechanic">Mechanic</option>
                   </select>

@@ -41,7 +41,7 @@ export default function WorkerSignin() {
             <div className="row shopsignin_row">
               <div className="col-lg-6 col-md-12 shopsignin_imgcol col-sm-12">
                 <img
-                  src="https://i.ibb.co/W224PWg/workersignin.gif"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaDYPhRwzSPoS-Uxukrhojj6dJk-cwurIG2w&usqp=CAU"
                   alt="hellothere"
                   className="shopsignin_img"
                 />

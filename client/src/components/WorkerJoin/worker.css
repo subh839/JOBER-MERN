@@ -5,17 +5,17 @@
   justify-content: center;
 }
 body {
-  background-color: #cbcbf3;
+  background-color: #8c8cb1;
 }
 .title h1 {
-  color: #3a3a3a;
+  color: #131010;
   text-align: center;
   margin: 30px 0;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 form {
-  max-width: 500px;
+  max-width: 1100px;
   margin: 0 auto;
   background: white;
   padding: 10px 20px;
@@ -92,15 +92,15 @@ form input {
   font-size: 35px;
 }
 .button-complete {
-  color: #95faa3;
+  color: #dadd20;
   margin-right: 10px;
 }
 .button-edit {
-  color: #56cfff;
+  color: #56ff80;
   margin-right: 10px;
 }
 .button-delete {
-  color: rgb(255, 122, 98);
+  color: rgb(187, 45, 20);
 }
 @media screen and (max-width: 667px) {
   .task_container {

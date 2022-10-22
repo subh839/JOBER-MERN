@@ -22,7 +22,7 @@ export default function Pshop({ PshopsObj }) {
                     <div className="col-lg-4 mb-4">
                       <div className="card">
                         <img
-                          src="http://geersplumbing.com/wp-content/uploads/2011/05/orange-county-bath-remodel-22.jpg"
+                          src=""
                           alt=""
                           className="card_image"
                         />
