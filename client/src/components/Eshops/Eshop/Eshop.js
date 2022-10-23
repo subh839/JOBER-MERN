@@ -6,7 +6,7 @@ export default function Eshop({ EshopsObj }) {
     <>
       {EshopsObj.length === 0 ? (
         <>
-          <h1>Loading++++.......</h1>
+          <h1>Loading.......</h1>
         </>
       ) : (
         <>

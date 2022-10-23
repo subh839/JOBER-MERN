@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 export default function Pshop({ PshopsObj }) {
   // console.log(PshopsObj);
-
   return (
     <>
       {PshopsObj.length === 0 ? (

@@ -15,14 +15,14 @@ export default function AdminPage({ bio }) {
       {check === "" ? (
         <div className="admindiv">
           <center>
-            <h1 style={{ color: "white" }}> Admin(org.) Page</h1>
+            <h1 style={{ color: "white" }}> Admin Page</h1>
           </center>
           <br />
           <br />
           <div className="adminsetup">
             <div className="card" style={{ width: "18rem" }}>
               <img
-                src="https://images.app.goo.gl/pdxFqPH88Jw4i9pZ9"
+                src="https://image.shutterstock.com/image-vector/illustration-kid-worker-260nw-103052906.jpg"
                 className="card-img-top"
                 alt="..."
               />
@@ -45,7 +45,7 @@ export default function AdminPage({ bio }) {
 
             <div className="card" style={{ width: "18rem" }}>
               <img
-                src="https://images.app.goo.gl/xR1nRKh5vJiYzfgb9"
+                src="https://image.shutterstock.com/image-vector/facade-toy-store-vector-illustration-260nw-427437085.jpg"
                 className="card-img-top"
                 alt="..."
               />
@@ -68,7 +68,7 @@ export default function AdminPage({ bio }) {
 
             <div className="card" style={{ width: "18rem" }}>
               <img
-                src="https://images.app.goo.gl/YQXFKgVgfRnhUX1V9"
+                src="https://i.pinimg.com/736x/64/81/22/6481225432795d8cdf48f0f85800cf66.jpg"
                 className="card-img-top"
                 alt="..."
                 height={200}

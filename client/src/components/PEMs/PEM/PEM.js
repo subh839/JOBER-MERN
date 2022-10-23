@@ -68,14 +68,6 @@ export default function PEM({
                       <div className="col-md-4">
                         <div
                           className="card pemCard text-white card-has-bg click-col"
-                          style={{
-                            backgroundImage:
-                              worker.occupation === "Plumber"
-                                ? 'url("https://media.istockphoto.com/photos/plumber-fixing-white-sink-pipe-with-adjustable-wrench-picture-id1150199946?k=20&m=1150199946&s=612x612&w=0&h=bMUbn77Hc6qNc1RJNKRe-wMPCQArw_2H5zDYeXvypcg=")'
-                                : worker.occupation === "Mechanic"
-                                ? 'url("https://images.app.goo.gl/GCvKnBZnHSSey4Xw8")'
-                                : 'url("https://www.electricblueinc.com/cm/dpl/images/create/industrial.jpg")',
-                          }}
                         >
                           <div className="card-img-overlay d-flex flex-column">
                             <div className="card-body">

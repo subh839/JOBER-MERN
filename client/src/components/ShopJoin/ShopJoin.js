@@ -206,7 +206,7 @@ export default function ShopJoin() {
             <h2 className="shopjoin_header">Register your shop</h2>
             <div className="shopjoin_form1 row">
               <div className="col-lg-8 col-md-16">
-                <img src={shp1} alt="" className="shp_img1" />
+                <img src="https://png.pngtree.com/png-vector/20210329/ourlarge/pngtree-cartoon-shop-sign-png-image_3140515.jpg" alt="" className="shp_img1" />
               </div>
 
 

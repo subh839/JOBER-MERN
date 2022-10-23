@@ -2,7 +2,7 @@ import React from "react";
 import navimg from "../../assets/nav.png";
 import { MdExpandMore } from "react-icons/md";
 
-
+import AdminSignUp from "../Admin/AdminSignUp";
 
 import "./Navbar.css";
 
@@ -38,7 +38,8 @@ export default function Navbar() {
                 <a className="nav-link" href="#services">
                   Services
                 </a>
-              </li>              
+              </li>      
+
               <li className="nav-item">
                 <a className="nav-link" href="#team">
                   Social-Media
