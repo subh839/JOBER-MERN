@@ -8,6 +8,7 @@ import service3 from "../../../assets/service3.png";
 import service4 from "../../../assets/service4.png";
 import service5 from "../../../assets/service5.png";
 import service6 from "../../../assets/service6.png";
+import AdminSignUp from "../../Admin/AdminSignUp";
 
 export default function Service({ customerDetails }) {
   return (
@@ -125,6 +126,25 @@ export default function Service({ customerDetails }) {
                     style={{ marginLeft: "10px" }}
                   >
                     Update
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="card workcard">
+            <div className=" workcard_body">
+              <img src="https://thumbs.dreamstime.com/b/online-business-programmer-flat-vector-concept-trendy-internet-entrepreneur-working-computer-office-network-web-service-172333766.jpg" width={30} alt="Workers Join" />
+              <h3 className="  text-truncate workname">Admin-Only</h3>
+            
+              <div className="d-block  ">
+          
+                <Link to="/admin">
+                  <button
+                    className=" btn service_btn btn-warning"
+                    data-inline="true"
+                    style={{ marginLeft: "10px" }}
+                  >
+                    Admin
                   </button>
                 </Link>
               </div>

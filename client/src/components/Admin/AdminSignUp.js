@@ -51,7 +51,7 @@ export default function AdminSignUp() {
                     <div className="row g-0">
                       <div className="col-md-6 col-lg-5 d-none d-md-block">
                         <img
-                          src="https://images.app.goo.gl/KPz4qVkeFcFkKcF58"
+                          src="https://thumbs.dreamstime.com/b/online-business-programmer-flat-vector-concept-trendy-internet-entrepreneur-working-computer-office-network-web-service-172333766.jpg"
                           
                           alt="login form"
                           className="img-fluid"
