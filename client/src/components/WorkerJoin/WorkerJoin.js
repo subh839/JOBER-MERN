@@ -296,20 +296,7 @@ export default function WorkerJoin() {
         </div>
       </div>
       </form>
-      <div>
-        <AddTodo />
-      </div>
-      <div className="todo_container">
-        {todos.map((todo) => (
-          <Todo
-            key={todo.id}
-            todo={todo}
-            toggleComplete={toggleComplete}
-            handleDelete={handleDelete}
-            handleEdit={handleEdit}
-          />
-        ))}
-      </div>
+
     </>
   );
 }

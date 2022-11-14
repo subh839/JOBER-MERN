@@ -18,24 +18,13 @@ export default function Features() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img src={banner1} className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Revolution comes </h5>
-              <p>JOBER will help you to solve your problems.</p>
-            </div>
+            
           </div>
           <div className="carousel-item">
             <img src={banner2} className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Strangers</h5>
-              <p>People who are in need of services like labours, electricians,teachers etc. , can contact them  with just some clicks. </p>
-            </div>
           </div>
           <div className="carousel-item">
             <img src={banner3} className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Job availability</h5>
-              <p>You can earn from here by applying and land on job.</p>
-            </div>
           </div>
         </div>
 
