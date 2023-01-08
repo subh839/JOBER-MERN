@@ -1,7 +1,7 @@
 import axios from "axios";
 
 //-PEM-
-const urlPEM = "https://jober12.herokuapp.com/pem";
+const urlPEM = "https://b-genius.onrender.com/pem";
 
 export const fetchPEM = () => axios.get(urlPEM);
 
@@ -13,7 +13,7 @@ export const updatePEM = (id, updatePEM) =>
 export const deletePEM = (id) => axios.delete(`${urlPEM}/${id}`);
 
 //-customer--
-const urlCustomer = "https://jober12.herokuapp.com/customer";
+const urlCustomer = "https://b-genius.onrender.com/customer";
 
 export const fetchCustomer = () => axios.get(urlCustomer);
 
@@ -26,7 +26,7 @@ export const updateCustomer = (id, updateCustomer) =>
 export const deleteCustomer = (id) => axios.delete(`${urlCustomer}/${id}`);
 
 //--shop--
-const urlShop = "https://jober12.herokuapp.com/shop";
+const urlShop = "https://b-genius.onrender.com/shop";
 
 export const fetchShop = () => axios.get(urlShop);
 
@@ -38,7 +38,7 @@ export const updateShop = (id, updateShop) =>
 export const deleteShop = (id) => axios.delete(`${urlShop}/${id}`);
 
 //--Admin--
-const urlAdmin = "https://jober12.herokuapp.com/admin";
+const urlAdmin = "https://b-genius.onrender.com/admin";
 
 export const fetchAdmin = () => axios.get(urlAdmin);
 

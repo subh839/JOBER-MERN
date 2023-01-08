@@ -44,18 +44,7 @@ export default function Mshop({ MshopsObj }) {
                           {Mshop.phoneNo} <br />
                           <i className="fas fa-envelope-square"></i>Mail :{" "}
                           {Mshop.email} <br /> <br />
-                          <Link
-                            to={{
-                              pathname: `/Items?${Mshop._id}`,
-                              state: {
-                                shopprop: true,
-                              },
-                            }}
-                          >                            
-                              <button type="button" className="boxbutton">
-                                Items
-                              </button>
-                          </Link>
+                         
                         </div>
                       </div>
                     </div>

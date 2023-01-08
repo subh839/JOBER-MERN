@@ -50,7 +50,7 @@ export default function PaymentForm({ amount, itemStatus }) {
       try {
         const { id } = paymentMethod;
         const response = await axios.post(
-          "https://helpinghanded-backend.herokuapp.com/payment",
+          "https://b-genius.onrender.com/payment",
           {
             amount: amount,
             id,

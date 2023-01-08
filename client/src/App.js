@@ -14,10 +14,10 @@ import ShopJoin from "./components/ShopJoin/ShopJoin";
 import WorkerJoin from "./components/WorkerJoin/WorkerJoin";
 // import PEMs from "./components/PEMs/PEMs";
 import Pshops from "./components/Pshops/Pshops";
-import Items from "./components/Items/Items";
+
 import Mshops from "./components/Mshops/Mshops";
 import Eshops from "./components/Eshops/Eshops";
-import Item from "./components/Items/Item/Item";
+
 import UpdateShop from "./components/UpdateShop/UpdateShop";
 import WorkerSignin from "./components/WorkerSignin/WorkerSignin";
 import { getCustomer } from "./actions/customer";
@@ -47,8 +47,7 @@ export default function App() {
           <Route path="/Eshops" exact element={<Eshops />} />
           <Route path="/Mshops" exact element={<Mshops />} />
           <Route path="/Pshops" exact element={<Pshops />} />
-          <Route path="/Item" exact element={<Item />} />
-          <Route path="/Items" exact element={<Items />} />
+          
           <Route path="/ShopJoin" exact element={<ShopJoin />} />
           <Route path="/WorkerJoin" exact element={<WorkerJoin />} />
           <Route path="/PEMSignin" exact element={<PEMSignin />} />

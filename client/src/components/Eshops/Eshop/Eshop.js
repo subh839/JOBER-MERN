@@ -42,18 +42,7 @@ export default function Eshop({ EshopsObj }) {
                           {Eshop.phoneNo} <br />
                           <i className="fas fa-envelope-square"></i>Mail Id:{" "}
                           {Eshop.email} <br /> <br />
-                          <Link
-                            to={{
-                              pathname: `/Items?${Eshop._id}`,
-                              state: {
-                                shopprop: true,
-                              },
-                            }}
-                          >
-                            <button type="button" className="boxbutton">
-                                Items
-                            </button>
-                          </Link>
+                       
                         </div>
                       </div>
                     </div>

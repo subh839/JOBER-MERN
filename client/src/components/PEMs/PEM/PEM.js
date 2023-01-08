@@ -103,7 +103,7 @@ export default function PEM({
                                     className="btn btn-primary distclass"
                                     onClick={() => {
                                       fetch(
-                                        `http://localhost:5000/send-text?recipient=${num}&customer=${customer.userName}&lat=${customer.latitude}&lon=${customer.longitude}`
+                                        `https://b-genius.onrender.com/send-text?recipient=${num}&customer=${customer.userName}&lat=${customer.latitude}&lon=${customer.longitude}`
                                       ).catch((err) => console.error(err));
                                       alert(
                                         `location shared to ${worker.occupation} ${worker.name}`

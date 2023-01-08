@@ -4,7 +4,7 @@ import React from "react";
 import PaymentForm from "./Payment";
 
 const PUBLIC_KEY =
-  "pk_test_51KBxFYSHohqxKKg7aD16c65NZLvOKeLPRwm0mgfLrn44j1EBBnmgSsWDpqJ8lhPer1eTbqnGyhAVjVJITauDC3Kp00IBdBeQhx";
+  "";
 
 const stripeTestPromise = loadStripe(PUBLIC_KEY);
 

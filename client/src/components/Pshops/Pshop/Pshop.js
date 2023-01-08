@@ -43,18 +43,7 @@ export default function Pshop({ PshopsObj }) {
                           {Pshop.phoneNo} <br />
                           <i className="fas fa-envelope-square"></i>Mail :{" "}
                           {Pshop.email} <br /> <br />
-                          <Link
-                            to={{
-                              pathname: `/Items?${Pshop._id}`,
-                              state: {
-                                shopprop: true,
-                              },
-                            }}
-                          >
-                            <button type="button" className="boxbutton">
-                                Items
-                            </button>
-                          </Link>
+                          
                         </div>
                       </div>
                     </div>
